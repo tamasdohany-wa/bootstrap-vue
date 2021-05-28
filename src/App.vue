@@ -1,25 +1,19 @@
 <template>
   <section>
-    <b-icon icon="exclamation-circle-fill" variant="success" title="success"></b-icon>
-    <b-icon icon="exclamation-circle-fill" variant="warning" title="warning"></b-icon>
-    <b-icon icon="exclamation-circle-fill" variant="danger" title="danger"></b-icon>
-    <b-icon icon="exclamation-circle-fill" variant="info" title="info"></b-icon>
-    <b-icon icon="exclamation-circle-fill" variant="primary" title="primary"></b-icon>
-    <b-icon icon="exclamation-circle-fill" variant="secondary" title="secondary"></b-icon>
-    <b-icon icon="exclamation-circle-fill" variant="dark" title="dark"></b-icon>
+    <i class="bi bi-bug-fill"></i>
   </section>
 </template>
 
 <script>
 import Vue from 'vue'
-import { BootstrapVueIcons } from 'bootstrap-vue'
+import { BootstrapVue } from 'bootstrap-vue'
 
 export default {
   components: {
-    BootstrapVueIcons
+    BootstrapVue
   }
 }
-Vue.use(BootstrapVueIcons)
+Vue.use(BootstrapVue)
 </script>
 
 <style scoped>
