@@ -13,10 +13,8 @@
 <script>
 import Vue from 'vue'
 import { BootstrapVueIcons } from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
 
 export default {
-  name: 'App',
   components: {
     BootstrapVueIcons
   }
